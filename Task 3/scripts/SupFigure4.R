@@ -6,7 +6,7 @@ library(tidyverse)
 
 ## scotland
 
-obs_transfusions <- read_excel("Task 3/data/survivors.xlsx",sheet="recipients_by_cohort_year")
+obs_transfusions <- read_excel("Task 5/data/survivors.xlsx",sheet="recipients_by_cohort_year")
 
 prop_trans <- obs_transfusions %>% group_by(transfusion_year) %>%
   mutate(proportion = number/sum(number))
