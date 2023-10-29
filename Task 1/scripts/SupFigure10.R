@@ -51,6 +51,6 @@ plot_grid(plot_grid(ggplot(idus,aes(x=year,y=no_hcv_infected_idus,fill=country))
     theme(legend.position="bottom"),
   nrow=2,rel_heights = c(1.5,1),align="h",axis="tl"
   )
-ggsave("Task 1/outputs/SupFigure9.png",width=5,height=6)
+ggsave("Task 1/outputs/SupFigure10.png",width=5,height=6)
 
 

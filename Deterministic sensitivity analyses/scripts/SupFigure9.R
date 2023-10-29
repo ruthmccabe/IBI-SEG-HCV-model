@@ -1,4 +1,4 @@
-### Supplementary Figure 8
+### Supplementary Figure 9
 
 ## calibration point and donor non clearance stay as is throughout
 
@@ -93,5 +93,5 @@ plot_grid(ggplot(task41_sens_plot)+
             guides(colour=guide_legend(title.position="top",
                                        title.hjust = 0.5))+
             theme(legend.position = "bottom",axis.text.x = element_text(angle=90)),ncol=3)
-ggsave("Deterministic sensitivity analyses/outputs/SupFigure8.png",width=8,height=3)
+ggsave("Deterministic sensitivity analyses/outputs/SupFigure9.png",width=8,height=3)
 
